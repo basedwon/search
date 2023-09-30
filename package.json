@@ -1,0 +1,67 @@
+{
+  "name": "@basd/search",
+  "version": "0.0.0",
+  "description": "A powerful and flexible text search library for JavaScript that enables you to build a simple text search engine.",
+  "author": "Basedwon <basedwon@protonmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/frenware/framework/plaindb/search.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/frenware/framework/plaindb/search/issues"
+  },
+  "homepage": "https://gitlab.com/frenware/framework/plaindb/search#readme",
+  "main": "lib/search.js",
+  "browser": {
+    ".": "./lib/search.js"
+  },
+  "scripts": {
+    "dev:test": "nodemon -w ../.. -x npm test",
+    "dev": "nodemon -w ../.. test/search.test.js",
+    "docs": "jsdoc2md lib/*.js > docs/api.md",
+    "update": "npm run update:prod && npm run update:dev",
+    "update:prod": "npm i -S @basd/formatter@latest @basd/registry@latest basd@latest",
+    "update:dev": "npm i -D @basd/testr@latest",
+    "test": "testr test"
+  },
+  "dependencies": {
+    "@basd/formatter": "^0.0.0",
+    "@basd/registry": "^0.0.0",
+    "basd": "^1.0.9"
+  },
+  "devDependencies": {
+    "@basd/testr": "^0.0.10",
+    "jsdoc": "^4.0.2",
+    "jsdoc-to-markdown": "^8.0.0"
+  },
+  "keywords": [
+    "search",
+    "text-search",
+    "query",
+    "query-parser",
+    "parser",
+    "tokenizer",
+    "interpreter",
+    "AST",
+    "abstract-syntax-tree",
+    "boolean-search",
+    "evaluation",
+    "normalization",
+    "factory",
+    "search-engine",
+    "design-patterns",
+    "tokenization",
+    "extendable",
+    "full-text-search",
+    "text-analysis",
+    "text-processing",
+    "natural-language-processing",
+    "string-matching",
+    "filtering",
+    "search-query",
+    "search-algorithm",
+    "text-query",
+    "flexible"
+  ]
+}
