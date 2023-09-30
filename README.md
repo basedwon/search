@@ -202,5 +202,5 @@ If you find this project useful and want to help support further development, pl
 
 ## License
 
-@basd/search is [MIT licensed](https://gitlab.com/frenware/utils/registry/-/blob/master/LICENSE).
+@basd/search is [MIT licensed](https://gitlab.com/frenware/framework/plaindb/search/-/blob/master/LICENSE).
 
