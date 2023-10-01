@@ -6,12 +6,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/frenware/framework/plaindb/search.git"
+    "url": "git+https://github.com/basedwon/search.git"
   },
   "bugs": {
-    "url": "https://gitlab.com/frenware/framework/plaindb/search/issues"
+    "url": "https://github.com/basedwon/search/issues"
   },
-  "homepage": "https://gitlab.com/frenware/framework/plaindb/search#readme",
+  "homepage": "https://github.com/basedwon/search#readme",
   "main": "lib/search.js",
   "browser": {
     ".": "./lib/search.js"
