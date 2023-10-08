@@ -27,11 +27,11 @@
   },
   "dependencies": {
     "@basd/formatter": "^0.0.0",
-    "@basd/registry": "^0.0.0",
-    "basd": "^1.0.9"
+    "@basd/registry": "^0.0.1",
+    "basd": "^1.0.13"
   },
   "devDependencies": {
-    "@basd/testr": "^0.0.10",
+    "@basd/testr": "^0.1.2",
     "jsdoc": "^4.0.2",
     "jsdoc-to-markdown": "^8.0.0"
   },
