@@ -1,6 +1,6 @@
 {
   "name": "@basd/search",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A powerful and flexible text search library for JavaScript that enables you to build a simple text search engine.",
   "author": "Basedwon <basedwon@protonmail.com>",
   "license": "MIT",
